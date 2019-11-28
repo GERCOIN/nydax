@@ -4,11 +4,11 @@ NYDAX  - Digital Asset Trading Platform and Exchange, open source crypto currenc
 
 ![NYDAX Dashboard](/images/NYDAX5.png)
 
-NYDAX is an Enterprise grade Digital Asset Exchange Platform, originally developed under a project called Innovation Network and then used to power NYDAX Digital Asset Exchange. We have decided to make the source code avaiable to public so that other users can benefit from it. Code is been provided as it is and we are not suggesting to use this code for production environment, however it gives you a good base to start with. If you want service support on this code please contact us through hello at nydax.com
+NYDAX is an Enterprise grade Digital Asset Exchange Platform, originally developed under a project called Innovation Network and then used to power NYDAX Digital Asset Exchange. We have decided to make the source code avaiable to public so that other users can benefit from it. Code is been provided as it is and we are not suggesting to use this code for production environment, however it gives you a good base to start with. If you want service support on this code please contact us through hello(at)nydax.com
 
 How to run this project :
 
-- The setup script is assuming you are on Ubuntu 18.04 so you can setup an AWS instance , minimum 4 Gig ram and 10 gig disk space is needed, make sure ports 2083, 2053 ,3000 are open.
+- The setup script is assumes you are running an Ubuntu 18.04 , if not we suggest you can setup an AWS instance with minimum 4 gig RAM and 10 gig disk space. make sure ports 2083, 2053 ,3000 are open and follow steps below:
 
 1- clone this repository
 
@@ -16,35 +16,36 @@ How to run this project :
 
 `nydax/bin/./install.sh`
 
-3- Run run script `nydax>bin/./start.sh`
+3- Run start script `nydax>bin/./start.sh`
 
-Open Your browser and browse http://IP:3000
+Open Your browser and browse http://<Your IP>:3000
 
 Enjoy.
+
+Please note , to have a complete exchange product you need to do more, if you are going to run a crypto currency exchange then you need to setup bitcoin server, current code doesn't take care of those integrations, however if you are looking for complete solution then talk to us.
 
 
 ![NYDAX Dashboard](/images/NYDAX13.png)
 
-Basic functionalities:
+Functionalities covered by this exchange:
+
 - User registration
 - User KYC
-- Dashboard
+- Trading Dashboard
 - Drag and Drop on the UI commponents for Trading Platform
-- NodeJS / React JS based application 
+- NodeJS / React JS based application (Front end and Backend )
 - MySQL as Database
 - RabbitMQ for Messaging 
-- Has API Layer for real time trading 
-- Supports long decimals
-- Multi Layout / Drag and Drop
-- Multi Theme ( White,  Dark , Black out of the box ) 
-- Supports SMS Notifications ( Twillio ) 
+- API Layer for real time trading 
+- Platform supports long decimals for cryptos
+- Trading platform has a multi layout UI / it supports drag and drop , resizing , moving components ,etc .
+- Multi Theme ( White,  Dark , Black out of the box, you can customise and add more) 
+- Supports SMS Notifications ( through twillio ) 
 - Supports Email Notifications 
-- Supports Fiat Payments (Stripe)
+- Supports Fiat Payments (Stripe connectivity is alreadt implemented)
 - Perfect for Crypto Currency Trading Platforms and Exchanges 
 
-for more information on help and support, please email us hello@nydax.com
-
-
+for more information on help and support, please email us hello(at)nydax.com
 
 
 
